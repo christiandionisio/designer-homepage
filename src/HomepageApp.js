@@ -1,7 +1,8 @@
+import { HomepageScreen } from "./components/homepage/HomepageScreen";
 
 function HomepageApp() {
   return (
-    <h1>Homepage App</h1>
+    <HomepageScreen />
   );
 }
 
