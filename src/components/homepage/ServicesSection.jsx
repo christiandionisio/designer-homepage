@@ -8,12 +8,12 @@ export const ServicesSection = () => {
         </h1>
         
         <div className='card'>
-            <div className='card-header-icon'>
+            <div className='card-header-icon bg-blue'>
                 <span className="material-symbols-outlined">
-                    code
+                    edit
                 </span>
             </div>
-            <h2 className='card-header-title'>Front End</h2>
+            <h2 className='card-header-title'>UI/UX Design</h2>
             <p className='card-body-paragragh'>
                 Lorem ipsum dolor sit amet consectetur adipisicing 
                 elit. Sit provident saepe vero beatae, 
@@ -46,12 +46,12 @@ export const ServicesSection = () => {
         </div>
 
         <div className='card'>
-            <div className='card-header-icon'>
+            <div className='card-header-icon bg-red'>
                 <span className="material-symbols-outlined">
-                    code
+                    storage
                 </span>
             </div>
-            <h2 className='card-header-title'>Front End</h2>
+            <h2 className='card-header-title'>Back End</h2>
             <p className='card-body-paragragh'>
                 Lorem ipsum dolor sit amet consectetur adipisicing 
                 elit. Sit provident saepe vero beatae, 

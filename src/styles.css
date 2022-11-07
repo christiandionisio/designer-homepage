@@ -18,6 +18,14 @@ body {
   width: 366px !important;
 }
 
+.bg-blue {
+  background-color: #2D9CDB !important;
+}
+
+.bg-red {
+  background-color: #EB5757 !important;
+}
+
 
 /* Navbar styles */
 
@@ -49,7 +57,7 @@ body {
 .navbar-menu li {
   display: inline;
   margin-left: 20px;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 .navbar-menu li a {
@@ -164,6 +172,8 @@ body {
 
 /* END Home Section styles */
 
+
+
 /* Services Section styles */
 
 .services-section {
@@ -186,8 +196,8 @@ body {
 
 .card {
   display:inline-block;
-  margin: 0 10px;
-  width: 315px;
+  margin: 20px 10px;
+  width: 25%;
   height: 400px;
   padding: 46px 34px;
   background: #FFFFFF;
