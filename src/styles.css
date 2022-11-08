@@ -10,7 +10,6 @@ body {
 }
 
 .homepage-screen {
-  /* background-color: red; */
   min-height: 100vh;
 }
 
@@ -24,6 +23,10 @@ body {
 
 .bg-red {
   background-color: #EB5757 !important;
+}
+
+.mt-188 {
+  top: 188px !important;
 }
 
 
@@ -253,3 +256,85 @@ body {
 }
 
 /* END Services Section styles */
+
+
+/* Work Section styles */
+
+.works-section {
+  margin: 0;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  padding: 0 165px;
+}
+
+.works-section-title {
+  width: 448px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.card-work {
+  width: 545px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 105px;
+}
+
+.card-header-image {
+  border-radius: 12px;
+  margin: 0 ;
+}
+
+.card-header-image img {
+  border-radius: 12px;
+}
+
+.card-service-type {
+  margin: 0;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #828282;
+  text-align: start;
+}
+
+.card-service-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  text-align: start;
+}
+
+.list-cards-work {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.link-see-more {
+  grid-column-start: 2;
+  text-align: right;
+}
+
+.link-see-more a {
+  text-decoration: none;
+  margin-top: 5%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #2D9CDB;
+}
+
+
+/* END Work Section styles */
