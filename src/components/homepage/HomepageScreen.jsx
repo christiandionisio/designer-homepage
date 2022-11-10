@@ -1,6 +1,7 @@
 import { Navbar } from "../ui/Navbar"
 import { HomeSection } from "./HomeSection"
 import { ServicesSection } from "./ServicesSection"
+import { TeamSection } from "./TeamSection"
 import { WorksSection } from "./WorksSection"
 
 export const HomepageScreen = () => {
@@ -11,6 +12,7 @@ export const HomepageScreen = () => {
         <HomeSection />
         <ServicesSection />
         <WorksSection />
+        <TeamSection />
         
     </div>
   )

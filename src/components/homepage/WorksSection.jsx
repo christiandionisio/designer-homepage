@@ -9,7 +9,7 @@ export const WorksSection = () => {
 
         <div className='list-cards-work'>
 
-            <div className='card-work mt-188'>
+            <div className='card-work'>
                 <div className='card-header-image'>
                     <img src={require('../../assets/smarthome.jpg')} 
                     />
@@ -35,7 +35,7 @@ export const WorksSection = () => {
                 </h2>
             </div>
 
-            <div className='card-work mt-188'>
+            <div className='card-work'>
                 <div className='card-header-image'>
                     <img src={require('../../assets/booking.png')} 
                     />
@@ -60,16 +60,15 @@ export const WorksSection = () => {
                     Juice product homepage
                 </h2>
             </div>
+        </div>
 
-            <div className='link-see-more'>
-                <a href="#">
-                    see more &nbsp; 
-                    <span class="material-symbols-outlined">
-                        arrow_forward_ios
-                    </span>
-                </a>
-            </div>
-
+        <div className='link-see-more'>
+            <a href="#">
+                see more &nbsp; 
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+            </a>
         </div>
     </div>
   )
