@@ -26,8 +26,12 @@ export const FooterSection = () => {
                     <button>Join</button>
                 </div>
             </div>
-
-
+        </div>
+        <div className="footer-row">
+            <p>
+                created by <span>christiandionisio</span> 
+                - devChallenges.io
+            </p>
         </div>
     </div>
   )
