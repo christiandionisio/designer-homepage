@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const FooterSection = () => {
   return (
@@ -12,9 +11,13 @@ export const FooterSection = () => {
                 <li>Contact</li>
             </ul>
             
-            <div className="creater-name">
+            <div className="creator-name">
                 <h2>Christian</h2>
-                {/* TODO: redes sociales */}
+                <div className="contact-icons">
+                    <i className="fa fa-linkedin fa-2x"></i>
+                    <i class="fa fa-whatsapp fa-2x"></i>
+                    <i class="fa fa-github fa-2x"></i>
+                </div>
             </div>
 
             <div className='home-contact-subsection'>
@@ -27,12 +30,10 @@ export const FooterSection = () => {
                 </div>
             </div>
         </div>
-        <div className="footer-row">
-            <p>
-                created by <span>christiandionisio</span> 
-                - devChallenges.io
-            </p>
-        </div>
+        <p className="copyright">
+            created by <span>christiandionisio</span> 
+            - devChallenges.io
+        </p>
     </div>
   )
 }

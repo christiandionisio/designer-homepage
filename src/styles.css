@@ -466,3 +466,57 @@ body {
 
 /* END Client Section styles */
 
+
+/* Footer Section styles */
+
+.footer-section {
+  margin: 0;
+  margin-top: 200px;
+  background: #100E1D;
+  color: #FFFFFF;
+  padding: 46px 165px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-menu {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+}
+
+.creator-name h2 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 53px;
+  color: #F2F2F2;
+}
+
+.contact-icons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #F2F2F2;
+}
+
+/* END Footer Section styles */
+
+
