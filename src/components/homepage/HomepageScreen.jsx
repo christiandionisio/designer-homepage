@@ -1,5 +1,6 @@
 import { Navbar } from "../ui/Navbar"
 import { ClientsSection } from "./ClientsSection"
+import { FooterSection } from "./FooterSection"
 import { HomeSection } from "./HomeSection"
 import { ServicesSection } from "./ServicesSection"
 import { TeamSection } from "./TeamSection"
@@ -15,6 +16,7 @@ export const HomepageScreen = () => {
         <WorksSection />
         <TeamSection />
         <ClientsSection />
+        <FooterSection />
         
     </div>
   )
