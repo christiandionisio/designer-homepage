@@ -138,6 +138,7 @@ body {
 }
 
 .contact-textfield input {
+  width: 60%;
   border: none;
   background-color: inherit;
   font-family: 'Poppins';
@@ -623,7 +624,6 @@ body {
     margin-top: 15px;
     margin-bottom: 6px;
     margin-left: 19px;
-    display: inline;
   }
 
   .contact-textfield button {
@@ -633,7 +633,6 @@ body {
     font-size: 14px;
     line-height: 21px;
     color: #F2F2F2;
-    display: inline;
   }
 
   /* END Home Section styles */
