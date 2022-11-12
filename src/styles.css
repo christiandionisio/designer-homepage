@@ -623,6 +623,7 @@ body {
     margin-top: 15px;
     margin-bottom: 6px;
     margin-left: 19px;
+    display: inline;
   }
 
   .contact-textfield button {
