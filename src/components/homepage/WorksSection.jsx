@@ -2,7 +2,7 @@ import React from 'react'
 
 export const WorksSection = () => {
   return (
-    <div className='works-section'>
+    <div id='works-section' className='works-section'>
         <h1 className='works-section-title'>
             Good design means good business
         </h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ClientsSection = () => {
   return (
-    <div className='clients-section'>
+    <div id='clients-section' className='clients-section'>
         <h1>
             "Fast and outstanding results. Edie inderstands
             their customer's needs. They have a young and 

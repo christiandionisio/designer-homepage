@@ -496,6 +496,11 @@ body {
   line-height: 200%;
 }
 
+.footer-list-menu li a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+
 .creator-name h2 {
   margin: 0;
   padding: 0;
@@ -511,6 +516,10 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 20px;
+}
+
+.contact-icons a {
+  color: #F2F2F2;
 }
 
 .copyright {

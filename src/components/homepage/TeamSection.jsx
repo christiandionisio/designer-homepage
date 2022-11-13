@@ -2,7 +2,7 @@ import React from 'react'
 
 export const TeamSection = () => {
   return (
-    <div className='team-section'>
+    <div id='team-section' className='team-section'>
         <div className="team-title-column">
             <h6>Meet the team</h6>
             <h2>

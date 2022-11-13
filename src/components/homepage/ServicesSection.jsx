@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ServicesSection = () => {
   return (
-    <div className='services-section'>
+    <div id='services-section' className='services-section'>
         <h1 className='service-section-title'>
             We offer high demand services
         </h1>

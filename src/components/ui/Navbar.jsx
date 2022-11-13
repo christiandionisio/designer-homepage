@@ -23,11 +23,11 @@ export const Navbar = () => {
         <ul className={
           isNavExpanded ? "navbar-menu expanded" : "navbar-menu"
         }>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Our Works</a></li>
-            <li><a href="#">Clients</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#services-section">Services</a></li>
+            <li><a href="#works-section">Our Works</a></li>
+            <li><a href="#clients-section">Clients</a></li>
+            <li><a href="#contact-section">Contact</a></li>
         </ul>
     </nav>
   )

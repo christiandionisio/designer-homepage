@@ -2,7 +2,7 @@ import React from 'react'
 
 export const HomeSection = () => {
   return (
-    <div className='home-section'>
+    <div id='home-section' className='home-section'>
         <div className='home-title-subsection'>
             <h6 className='home-subtitle'>
                 Unhappy with your website?
