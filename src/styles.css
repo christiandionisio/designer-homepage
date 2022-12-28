@@ -539,7 +539,7 @@ body {
 
 
 
-
+/* RESPONSIVE STYLES */
 @media (max-width: 500px) {
 
   html, body {
@@ -551,13 +551,12 @@ body {
 
   .navbar-section {
     height: 65px;
+    padding: 6% 6%;
 
   }
 
   .navbar-brand {
     margin: 0;
-    margin-top: 13px;
-    margin-left: 10px;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -602,7 +601,7 @@ body {
   /* Home Section styles */
 
   .home-section {
-    padding-left: 40px;
+    padding: 0 7%;
   }
 
   .home-subtitle {
@@ -685,7 +684,7 @@ body {
   .services-section {
     margin: 0;
     margin-top: 102px;
-    padding: 0 40px;
+    padding: 0 7%;
   }
 
   .service-section-title {
@@ -700,6 +699,15 @@ body {
     width: 260px;
   }
 
+  .card-header-title {
+    font-size: 20px;
+    color: #333333;
+  }
+
+  .card-body-paragragh {
+    font-size: 14px;
+  }
+
   .card-btn-footer {
     font-size: 14px;
   }
@@ -712,7 +720,7 @@ body {
   .works-section {
     margin-top: 120px;
     margin-bottom: 48px;
-    padding: 0 40px;
+    padding: 0 7%;
   }
 
   .works-section-title {
@@ -765,7 +773,7 @@ body {
 
   .team-section {
     margin-top: 100px;
-    padding: 0 40px;
+    padding: 0 7%;
     flex-direction: column;
   }
 
@@ -794,7 +802,7 @@ body {
   .clients-section {
     margin: 0;
     margin-top: 100px;
-    padding: 0 40px;
+    padding: 0 7%;
   }
 
   .clients-section h1 {
