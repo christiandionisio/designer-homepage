@@ -182,27 +182,28 @@ body {
 
 .services-section {
   margin: 0;
-  margin-top: 200px;
-  padding: 0 165px;
+  margin-top: 100px;
+  padding: 0 15%;
 }
 
 .service-section-title {
-  width: 346px;
+  width: 45%;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 54px;
-
+  font-size: 3vw;
   color: #333333;
 }
 
+.service-cards {
+  display: flex;
+  flex-direction: row;
+}
+
 .card {
-  display:inline-block;
   margin: 20px 10px;
   width: 25%;
-  height: 400px;
   padding: 46px 34px;
   background: #FFFFFF;
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
