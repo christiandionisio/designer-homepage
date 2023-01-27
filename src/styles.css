@@ -77,17 +77,13 @@ body {
 
 /* Home Section styles */
 
-.home-section {
-  padding-left: 227px;
-}
-
 .home-title-subsection {
   margin-top: 30px;
+  margin-left: 15%;
 }
 
 .home-subtitle {
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.6vw;
   font-weight: 500;
   color: #2D9CDB;
   margin: 0;
@@ -95,39 +91,42 @@ body {
 
 .home-title {
   color: #333333;
-  width: 543px;
-  font-size: 48px;
-  line-height: 72px;
+  width: 45%;
+  font-size: 3.3vw;
   font-weight: 500;
   margin-top: 16px;
   margin-bottom: 42px;
 }
 
 .home-image-subsection {
-  margin-left: -227px;
   display: flex;
   justify-content: center;
 }
 
 .home-image-subsection img {
   border-radius: 18px;
+  width: 93%;
 }
 
 .home-paragraph {
-  width: 366px;
+  width: 30%;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.3vw;
   color: #4F4F4F;
   margin-top: 42px;
   margin-bottom: 42px;
 }
 
+.home-contact-subsection {
+  margin-left: 15%;
+  width: 25%;
+}
+
 .contact-paragrapgh {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.1vw;
   line-height: 21px;
   color: #828282;
   margin: 0;
@@ -135,24 +134,24 @@ body {
 
 .contact-textfield {
   margin-top: 9px;
-  width: 350px;
-  height: 57px;
+  width: 100%;
   background: #F2F2F2;
   border-radius: 12px;
+  align-items: center;
+
+  display: flex;
+  align-items: stretch;
 }
 
 .contact-textfield input {
-  width: 60%;
+  width: 55%;
   border: none;
   background-color: inherit;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 21px;
+  font-size: 1.2vw;
+  margin: 4% 6%;
 }
 
 .contact-textfield input:focus {
@@ -161,19 +160,17 @@ body {
 
 .contact-textfield button {
   float: right;
-  margin: 4px;
+  margin: 2%;
 
   border: none;
-  width: 94px;
-  height: 49px;
+  width: 30%;
   background: #2D9CDB;
   border-radius: 12px;
 
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 1.3vw;
   color: #F2F2F2;
 
 }
