@@ -83,7 +83,7 @@ body {
 }
 
 .home-subtitle {
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   font-weight: 500;
   color: #2D9CDB;
   margin: 0;
@@ -91,8 +91,8 @@ body {
 
 .home-title {
   color: #333333;
-  width: 45%;
-  font-size: 3.3vw;
+  width: 40%;
+  font-size: 3vw;
   font-weight: 500;
   margin-top: 16px;
   margin-bottom: 42px;
@@ -105,14 +105,14 @@ body {
 
 .home-image-subsection img {
   border-radius: 18px;
-  width: 93%;
+  width: 90%;
 }
 
 .home-paragraph {
   width: 30%;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3vw;
+  font-size: 1.2vw;
   color: #4F4F4F;
   margin-top: 42px;
   margin-bottom: 42px;
