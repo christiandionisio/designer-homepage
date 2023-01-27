@@ -33,8 +33,7 @@ body {
 /* Navbar styles */
 
 .navbar-section {
-  height: 138px;
-
+  min-height: 120px;
 }
 
 .navbar-brand {
@@ -60,7 +59,7 @@ body {
 .navbar-menu li {
   display: inline;
   margin-left: 20px;
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .navbar-menu li a {
