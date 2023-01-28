@@ -770,24 +770,30 @@ body {
 
   .team-section {
     margin-top: 100px;
-    padding: 0 7%;
+    padding: 0 10%;
     flex-direction: column;
   }
 
   .team-images-column {
-    order: 2;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
 
   .team-title-column h6 {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 6.5vw;
+  }
+
+  .team-title-column h2 {
+    font-size: 7.5vw;
+  }
+
+  .team-title-column p {
+    font-size: 3.5vw;
   }
 
   .team-image-column img {
-    width: 120px;
+    width: 100%;
     margin: 5px 0
   }
 
