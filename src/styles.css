@@ -832,12 +832,16 @@ body {
   /* Footer Section styles */
 
   .footer-section {
-    margin-top: 100px;
-    padding: 36px 40px;
+    padding: 5% 10%;
   }
 
   .footer-row {
     flex-direction: column;
+    padding: 0;
+  }
+
+  .footer-list-menu {
+    padding: 0;
   }
 
   .creator-name h2 {
