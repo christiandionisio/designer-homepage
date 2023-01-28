@@ -689,7 +689,6 @@ body {
   /* Services Section styles */
 
   .services-section {
-    background-color: red;
     margin: 0;
     margin-top: 90px;
     padding: 0 15%;
@@ -723,37 +722,30 @@ body {
   /* Work Section styles */
 
   .works-section {
-    margin-top: 120px;
-    margin-bottom: 48px;
-    padding: 0 7%;
+    margin-top: 90px;
+    padding: 0 10%;
   }
 
   .works-section-title {
-    width: 267px;
-    font-size: 24px;
-    line-height: 36px;
+    width: 80%;
+    font-size: 6.1vw;
   }
 
   .card-work {
     margin-top: 30px;
-    margin-bottom: 30px;
+    width: 100%;
   }
 
   .card-header-image img {
-    width: 340px;
-    border-radius: 12px;
+    width: 100%;
   }
 
   .card-service-type {
-    margin: 0;
-    margin-top: 5px;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 3vw;
   }
 
   .card-service-title {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 5vw;
   }
 
   .list-cards-work {
