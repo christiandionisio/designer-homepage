@@ -576,6 +576,37 @@ body {
   /* END Navbar styles */
 
 
+  /* Home Section styles */
+
+  .home-subtitle {
+    font-size: 1.8vw;
+  }
+
+  .home-title {
+    width: 60%;
+    font-size: 4vw;
+  }
+
+  .home-paragraph {
+    width: 70%;
+    font-size: 2vw;
+  }
+
+  .home-contact-subsection {
+    width: 45%;
+  }
+
+  .contact-paragrapgh {
+    font-size: 1.8vw;
+  }
+
+  .contact-textfield input , .contact-textfield button{
+    font-size: 2vw;
+  }
+
+  /* END Home Section styles */
+
+
   /* Services Section styles */
 
   .service-cards {
