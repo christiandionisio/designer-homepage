@@ -9,6 +9,10 @@ body {
   background-color: #FFFFFF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .homepage-screen {
   min-height: 100vh;
 }
