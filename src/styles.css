@@ -647,6 +647,24 @@ body {
   }
 
   /* END Work Section styles */
+
+
+
+  /* Team Section styles */
+
+  .team-title-column h6 {
+    font-size: 2vw;
+  }
+
+  .team-title-column h2 {
+    font-size: 3.3vw;
+  }
+
+  .team-title-column p {
+    font-size: 1.8vw;
+  }
+
+  /* END Team Section styles */
   
 }
 
