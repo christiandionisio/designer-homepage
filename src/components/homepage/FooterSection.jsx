@@ -26,7 +26,7 @@ export const FooterSection = () => {
                 </div>
             </div>
 
-            <div className='home-contact-subsection'>
+            <div className='footer-contact-subsection'>
                 <p className='contact-paragrapgh'>
                     Want us to contact you?
                 </p>

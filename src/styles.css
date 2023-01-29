@@ -855,25 +855,31 @@ body {
 
   .footer-list-menu {
     padding: 0;
+    font-size: 3.2vw;
   }
 
   .creator-name h2 {
-    margin-top: 64px;
+    margin-top: 30px;
+    font-size: 7vw;
   }
 
   .contact-icons {
     justify-content: flex-start;
-    margin-bottom: 64px;
+    margin-bottom: 34px;
+    font-size: 3vw;
+  }
+
+  .footer-contact-subsection .contact-paragrapgh {
+    width: 100%;
+  }
+
+  .footer-contact-subsection .contact-textfield {
+    width: 100%;
   }
 
   .copyright {
-    margin-top: 64px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #F2F2F2;
+    margin-top: 40px;
+    font-size: 2.6vw;
   }
 
   /* END Footer Section styles */
