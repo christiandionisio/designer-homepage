@@ -14,7 +14,7 @@ export const FooterSection = () => {
             <div className="creator-name">
                 <h2>Christian</h2>
                 <div className="contact-icons">
-                    <a href="https://www.linkedin.com/in/christian-dionisio-trive%C3%B1o-64b323180/" target="_blank">
+                    <a href="https://www.linkedin.com/in/christian-dionisio-trive%C3%B1o-64b323180/" target="_blank" rel="noreferrer">
                         <i className="fa fa-linkedin fa-2x"></i>
                     </a>
                     <a href="" target="_blank">

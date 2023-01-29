@@ -11,13 +11,13 @@ export const Navbar = () => {
         </span>
 
         <div className="navbar-mobile-menu">
-          <a onClick={() => {
+          <div onClick={() => {
             setIsNavExpanded(!isNavExpanded)
           }}>
             <span class="material-symbols-outlined">
               menu
             </span>
-          </a>
+          </div>
         </div>
 
         <ul className={

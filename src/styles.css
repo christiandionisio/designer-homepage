@@ -701,6 +701,8 @@ body {
     margin: 30px 0;
     padding: 0;
     align-items: center;
+    animation-duration: 2s;
+    animation-name: slidein;
   }
 
   .navbar-mobile-menu {
@@ -716,6 +718,16 @@ body {
     text-align: center;
     font-size: 15px;
     padding: 5px 0;
+  }
+
+  @keyframes slidein {
+    from {
+      max-height: 0;
+    }
+  
+    to {
+      max-height: 500px
+    }
   }
 
   .navbar-menu li:hover {

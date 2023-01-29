@@ -25,6 +25,7 @@ export const WorksSection = () => {
             <div className='card-work'>
                 <div className='card-header-image'>
                     <img src={require('../../assets/onboard.png')} 
+                        alt='test'
                     />
                 </div>  
                 <h6 className='card-service-type'>
@@ -37,7 +38,8 @@ export const WorksSection = () => {
 
             <div className='card-work'>
                 <div className='card-header-image'>
-                    <img src={require('../../assets/booking.png')} 
+                    <img src={require('../../assets/booking.png')}
+                        alt='test' 
                     />
                 </div>  
                 <h6 className='card-service-type'>
@@ -51,6 +53,7 @@ export const WorksSection = () => {
             <div className='card-work'>
                 <div className='card-header-image'>
                     <img src={require('../../assets/juice-product.png')} 
+                        alt='test'
                     />
                 </div>  
                 <h6 className='card-service-type'>
