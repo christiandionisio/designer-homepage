@@ -609,6 +609,11 @@ body {
 
   /* Services Section styles */
 
+  .service-section-title {
+    width: 50%;
+    font-size: 4vw;
+  }
+
   .service-cards {
     flex-direction: column;
     align-items: center;
@@ -623,6 +628,25 @@ body {
   }
 
   /* END Services Section styles */
+
+
+  
+  /* Work Section styles */
+
+  .works-section-title {
+    width: 60%;
+    font-size: 4vw;
+  }
+
+  .card-service-type {
+    font-size: 1.8vw;
+  }
+
+  .card-service-title {
+    font-size: 2.2vw;
+  }
+
+  /* END Work Section styles */
   
 }
 
