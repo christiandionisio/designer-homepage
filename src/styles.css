@@ -665,6 +665,30 @@ body {
   }
 
   /* END Team Section styles */
+
+
+  /* Client Section styles */
+
+  .clients-section h1 {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  .user-img {
+    width: 30%;
+  }
+
+  .user-info h2 {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+  .user-info h3 {
+    width: 100%;
+    font-size: 2.2vw;
+  }
+
+  /* END Client Section styles */
   
 }
 
