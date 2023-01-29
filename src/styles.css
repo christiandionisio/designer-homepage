@@ -542,35 +542,12 @@ body {
   }
 
   .navbar-menu {
-    display: none;
-  }
-
-  .navbar-menu.expanded {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0;
-    padding: 0;
-    align-items: center;
-  }
-
-  .navbar-mobile-menu {
-    display: block;
-    cursor: pointer;
-    float: right;
-    margin: 13px 10px;
+    height: auto;
+    padding: 1% 0;
   }
 
   .navbar-menu li {
-    cursor: pointer;
-    width: 100%;
-    text-align: center;
-    font-size: 15px;
-    padding: 5px 0;
-  }
-
-  .navbar-menu li:hover {
-    background-color: #eee;
+    font-size: 2vw;
   }
 
   /* END Navbar styles */
@@ -711,6 +688,38 @@ body {
   .navbar-brand {
     font-weight: 800;
     font-size: 5.5vw;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-menu.expanded {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navbar-mobile-menu {
+    display: block;
+    cursor: pointer;
+    float: right;
+    margin: 13px 10px;
+  }
+
+  .navbar-menu li {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px 0;
+  }
+
+  .navbar-menu li:hover {
+    background-color: #eee;
   }
 
   /* END Navbar styles */
